@@ -1,0 +1,33 @@
+.container {
+  width: 600px;
+  margin: 50px auto;
+  text-align: center;
+  font-family: Arial;
+}
+
+.form {
+  margin: 20px;
+}
+
+input,
+select,
+button {
+  padding: 10px;
+  margin: 5px;
+}
+
+.task {
+  padding: 15px;
+  margin: 10px;
+  background: #eee;
+  border-radius: 5px;
+}
+
+.task span {
+  margin: 10px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: gray;
+}

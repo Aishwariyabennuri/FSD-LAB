@@ -1,0 +1,132 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: #f4f6f8;
+  color: #222;
+}
+
+#root {
+  min-height: 100vh;
+}
+
+h1 {
+  text-align: center;
+  padding-top:50px;
+  color: #32b7f5;
+  font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h2 {
+  text-align: center;
+  margin: 20px 0;
+  color: #34495e;
+}
+
+p {
+  text-align: center;
+  margin: 15px;
+
+}
+
+/* Navigation */
+nav {
+  display: flex;
+  justify-content: center;
+  gap: 30px;
+  margin: 30px 0;
+  padding: 15px;
+  background: #29ace8;
+}
+
+nav a {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+  font-size: 18px;
+}
+
+nav a:hover {
+  color: #fa4747;
+}
+
+/* Sections */
+section {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 25px;
+  background: rgb(0, 0, 0);
+  border-radius: 10px;
+}
+
+/* Education / Projects */
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
+  max-width: 900px;
+  margin: 30px auto;
+}
+
+.card {
+  background: white;
+  padding: 25px;
+  text-align: center;
+  border-radius: 10px;
+  box-shadow: 0 3px 10px #ccc;
+}
+
+.card h3 {
+  color: #3498db;
+  margin-bottom: 10px;
+}
+
+/* Skills */
+.skill {
+  display: inline-block;
+  background: #3498db;
+  color: white;
+  padding: 10px 15px;
+  margin: 5px;
+  border-radius: 20px;
+}
+
+/* Lists */
+ul {
+  max-width: 500px;
+  margin: 20px auto;
+}
+
+li {
+  margin: 10px;
+}
+
+/* Footer */
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background: #45c1fa;
+  color: rgb(0, 0, 0);
+}
+
+/* Mobile */
+@media (max-width: 600px) {
+  nav {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .grid {
+    grid-template-columns: 1fr;
+    margin: 20px;
+  }
+}

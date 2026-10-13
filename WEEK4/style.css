@@ -1,0 +1,46 @@
+h1 {
+    padding: 0px;
+    margin: 0px;
+    text-align: center;
+    background-color: rgb(200, 236, 253);
+    }
+
+ul {
+    text-align: center;
+    padding: 1px;
+    background: linear-gradient(90deg, #e3ffe7 0%, #d9e7ff 100%);
+    }
+
+li {
+    padding: 1px;
+    margin: 0px 0px;
+    display: inline-block;
+    }
+
+h2 {
+    padding: 0px;
+    margin: 0px;
+    }
+
+div {
+    padding: 0px;
+    margin-top: 0px;
+    }
+
+p {
+    text-align: center;
+    }
+
+p button {
+    padding: 5px;
+    }
+
+.input {
+    text-align: center;
+      }
+
+      .submit {
+          text-align: center;
+          padding: 3px;
+          margin: 4px;
+      }
